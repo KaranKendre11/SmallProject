@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Wall-Ee</string>
+    <string name="Header">  Weekly Finest.</string>
+    <string name="Advnbtn">Adventure </string>
+    <string name="Natbtn">Nature </string>
+    <string name="Galbtn">Galaxy </string>
+    <string name="aesbtn">Aesthetic</string>
 </resources>
