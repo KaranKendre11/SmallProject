@@ -2,24 +2,24 @@ package com.example.wall_ee;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class GalxActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
-        Button Galxbutton = (Button) findViewById(R.id.Galxbtn);
+        setContentView(R.layout.activity_galx);
 
-        Galxbutton.setOnClickListener(new View.OnClickListener() {
+        Button backbtn = (Button) findViewById(R.id.backbtn);
+
+        backbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this,GalxActivity.class);
+                Intent i = new Intent(GalxActivity.this,MainActivity.class);
                 startActivity(i);
             }
         });
