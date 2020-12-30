@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".GalxActivity">
 
+
     <ImageView
         android:layout_width="403dp"
         android:layout_height="316dp"
@@ -111,6 +112,7 @@
 
 
     </androidx.cardview.widget.CardView>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

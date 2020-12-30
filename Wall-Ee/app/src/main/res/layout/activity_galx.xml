@@ -36,6 +36,7 @@
         android:layout_marginLeft="32dp"
         android:layout_marginTop="72dp"
         android:background="@color/black"
+        android:onClick="methodtoexe"
         app:cardCornerRadius="25dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">

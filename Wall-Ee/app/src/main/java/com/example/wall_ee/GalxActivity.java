@@ -2,10 +2,13 @@ package com.example.wall_ee;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.WallpaperManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import java.io.IOException;
 
 public class GalxActivity extends AppCompatActivity {
 
@@ -23,5 +26,15 @@ public class GalxActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+    }
+
+    public void methodtoexe(View view) {
+        WallpaperManager wlp = WallpaperManager.getInstance(getApplicationContext());
+        try{
+            wlp.setResource(+R.drawable.galx4);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

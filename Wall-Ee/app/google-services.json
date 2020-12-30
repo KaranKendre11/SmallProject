@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "827249505738",
+    "project_id": "wallpaperhd-2021",
+    "storage_bucket": "wallpaperhd-2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827249505738:android:d0b98d2fdca6d3d8f84b33",
+        "android_client_info": {
+          "package_name": "com.example.wall_ee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827249505738-t7rsf99oj8jc7lj5sp12fm5g4rjttl68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5qMYqfuDSlv8kAHFWaTpQCj9D54-HMZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827249505738-t7rsf99oj8jc7lj5sp12fm5g4rjttl68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
