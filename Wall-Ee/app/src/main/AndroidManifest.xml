@@ -3,6 +3,8 @@
     package="com.example.wall_ee">
 
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WallEe">
-        <activity android:name=".AesActivity"></activity>
+        <activity android:name=".AesActivity" />
         <activity android:name=".NatActivity" />
         <activity android:name=".AdvActivity" />
         <activity android:name=".GalxActivity" />

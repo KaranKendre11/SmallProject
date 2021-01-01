@@ -1,6 +1,8 @@
 package com.example.wall_ee;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -10,6 +12,24 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    RecyclerView recyclerView;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        init();
+
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new GridLayoutManager(this,3));
+    }
+
+    private void init(){
+        recyclerView = findViewById(R.id.recyclerView);
+    }
+}
+
+//OLD VERSION OF OUR WORK...
+    /*
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,4 +75,4 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-}
+} */
